@@ -29,7 +29,7 @@ const Navbar = () => {
         elevation={0}
         sx={{
           background: 'linear-gradient(90deg, #1e2a38 0%, #1e2a38 100%)',
-          color: '#fff',
+          color: '#fff', //OKa
         }}
       >
         <Container maxWidth="lg">
