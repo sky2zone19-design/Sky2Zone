@@ -103,7 +103,7 @@ const Footer = () => {
               opacity: 0.5,
             }}
           >
-            © {new Date().getFullYear()} YourCompany. All rights reserved.
+            © {new Date().getFullYear()} SkyZone. All rights reserved.
           </Typography>
         </Box>
       </Container>
