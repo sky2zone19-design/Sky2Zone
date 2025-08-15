@@ -1,7 +1,7 @@
 import { SitemapStream, streamToPromise } from 'sitemap';
 import { createWriteStream } from 'fs';
 
-const sitemap = new SitemapStream({ hostname: 'https://svhomecare.online/' });
+const sitemap = new SitemapStream({ hostname: 'https://sky2zone.online/' });
 const writeStream = createWriteStream('./public/sitemap.xml');
 
 streamToPromise(sitemap).then(data => {
